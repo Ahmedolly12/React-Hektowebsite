@@ -1,0 +1,76 @@
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7em;
+  background-color:#EEEFFB;
+  margin-top: 5em;
+}
+footer a:hover{
+  color:#000000;
+}
+.first, .second, .third, .fourth{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  line-height: 30px;
+  flex-direction: column;
+}
+a.foot{
+  text-decoration: none;
+  color:#8A8FB9;
+}
+.first h4{
+  font-size: 30px;
+  padding-top: 2em;
+  margin-bottom:20px;
+}
+.first p{
+  color: #8A8FB9;
+}
+input.mail{
+  padding: 10px;
+ border: none;
+ margin-bottom: 1em;
+  width: 50%;
+  font-size: 12px;
+  
+}
+input.sign{
+  background-color: #FB2E86;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-bottom: 1em;
+  font-size: 12px;
+
+}
+ p.heading{
+  font-size: 18px;
+  /* padding-top: 2em; */
+  font-weight: 700;
+}
+p.address{
+  margin-bottom: 5em;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E7E4F8;
+  padding: 10px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fb-background{
+  background-color: #151875;
+  padding: 10px;
+  border-radius: 100%;
+}
+.foot-text{
+  color: #9DA0AE;
+}
