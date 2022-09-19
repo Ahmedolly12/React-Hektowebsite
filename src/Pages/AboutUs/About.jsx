@@ -20,7 +20,7 @@ const About = () => {
             <div class="nav">
                 <a href="./">Home .</a>
                 <a href="./">Pages .</a>
-                <Link to ="ContactUS">Contact Us</Link>
+                <Link to ="ContactUs">Contact Us</Link>
             </div>
         </div>
         <div class="ecommerce">
