@@ -84,8 +84,8 @@
                 <ul class="navbar">
                     <li><a href="./">   
                          <select class="homeDrownup" name="" id="">
-                            <option value=""><Link to="/">Home</Link></option>
-                            <option value=""><="./">shopping Cart</a></option>
+                            <option value=""><Link to="./">Home</Link></option>
+                            <option value=""><a href="./">shopping Cart</a></option>
                             <option value=""><a href="./">About us</a></option>
                             <option value=""><a href="./">Discount item</a></option>
                            </select>
@@ -119,7 +119,6 @@
             </div>
         </header>
     </div>
-    
    )
  }
  
