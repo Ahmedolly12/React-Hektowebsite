@@ -14,7 +14,7 @@ const Contact = () => {
             <div class="nav">
                 <Link to="/">Home .</Link>
                 <Link to="/">Pages .</Link>
-                <Link to="AboutUs">About Us</Link>
+                <Link to="/AboutUs">About Us</Link>
             </div>
         </div>
         <div class="section-1">

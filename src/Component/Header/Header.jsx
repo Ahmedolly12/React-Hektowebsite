@@ -84,8 +84,8 @@
                 <ul class="navbar">
                     <li><a href="./">   
                          <select class="homeDrownup" name="" id="">
-                            <option value=""><a href="./">Home</a></option>
-                            <option value=""><a href="./">shopping Cart</a></option>
+                            <option value=""><Link to="/">Home</Link></option>
+                            <option value=""><="./">shopping Cart</a></option>
                             <option value=""><a href="./">About us</a></option>
                             <option value=""><a href="./">Discount item</a></option>
                            </select>
@@ -95,7 +95,7 @@
                     <li><Link to="#">Product</Link></li>
                     <li><Link to="">Blog</Link></li>
                     <li><Link to="#">Shop</Link></li>
-                    <li><Link to ="ContactUS">Contact</Link></li>
+                    <li><Link to ="ContactUs">Contact</Link></li>
                 </ul>
                 <form class="example" action="/action_page.php">
                     <input type="text" placeholder="" name="search"/>
@@ -119,6 +119,7 @@
             </div>
         </header>
     </div>
+    
    )
  }
  
