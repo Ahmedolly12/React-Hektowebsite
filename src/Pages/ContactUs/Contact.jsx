@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+ import {Link} from 'react-router-dom'
 import s1 from '../../contact_asset/s1.png';
 import s2 from '../../contact_asset/s2.png';
 import s3 from '../../contact_asset/s3.png';
@@ -13,7 +14,7 @@ const Contact = () => {
             <div class="nav">
                 <a href="#">Home .</a>
                 <a href="#">Pages .</a>
-                <a class="about" href="about.html">About Us</a>
+                <Link to= "AboutUs">About Us</Link>
             </div>
         </div>
         <div class="section-1">

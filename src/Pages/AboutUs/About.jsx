@@ -1,4 +1,5 @@
 import React from 'react'
+ import {Link} from 'react-router-dom'
 import './About.css'
 import client1 from '../../about_asset/client1.png'
 import delivery from '../../about_asset/delivery.png'
@@ -19,7 +20,7 @@ const About = () => {
             <div class="nav">
                 <a href="./">Home .</a>
                 <a href="./">Pages .</a>
-                <a class="about" href="./">Contact Us</a>
+                <Link to ="ContactUS">Contact Us</Link>
             </div>
         </div>
         <div class="ecommerce">
