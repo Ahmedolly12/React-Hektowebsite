@@ -79,7 +79,7 @@
             </div>
             <div class="header-2">
                 <div class="logo">
-                    <a href="index.html"><h3>Hekto</h3></a>
+                    <Link to ="/"><h3>Hekto</h3></Link>
                 </div>
                 <ul class="navbar">
                     <li><a href="./">   
@@ -92,9 +92,9 @@
                  </a> 
                     </li>
                     <li><Link to="#">Pages</Link></li>
-                    <li><Link to="./">Product</Link></li>
-                    <li><Link to="./">Blog</Link></li>
-                    <li><Link to="./">Shop</Link></li>
+                    <li><Link to="#">Product</Link></li>
+                    <li><Link to="">Blog</Link></li>
+                    <li><Link to="#">Shop</Link></li>
                     <li><Link to ="ContactUS">Contact</Link></li>
                 </ul>
                 <form class="example" action="/action_page.php">

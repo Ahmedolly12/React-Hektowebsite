@@ -12,7 +12,7 @@ const Contact = () => {
         <div class="contact-us">
             <h3>Contact Us</h3>
             <div class="nav">
-                <a href="#">Home .</a>
+                <Link to="/">Home .</Link>
                 <a href="#">Pages .</a>
                 <Link to= "AboutUs">About Us</Link>
             </div>
