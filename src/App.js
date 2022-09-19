@@ -12,7 +12,7 @@
       <Routes>
        <Route path ='/' element = {<Home/>}/>
        <Route path ='ContactUs' element ={<ContactUs/>}/>
-      <Route path ='AboutUs' element ={<AboutUs/>}/>
+       <Route path ='AboutUs' element ={<AboutUs/>}/>
       </Routes>
        <Footer/>
   

@@ -13,7 +13,7 @@ const Contact = () => {
             <h3>Contact Us</h3>
             <div class="nav">
                 <Link to="/">Home .</Link>
-                <a href="#">Pages .</a>
+                <Link to="/">Pages .</Link>
                 <Link to="AboutUs">About Us</Link>
             </div>
         </div>
