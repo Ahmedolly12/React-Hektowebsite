@@ -103,7 +103,7 @@ import { useState } from 'react';
                         <li><a href="./">Home</a></li>
                         <li><a href="./">Products</a></li>
                         <li><a href="./">Blog</a></li>
-                        <li><a href="AboutUs">About</a></li>
+                        <li><Link to="AboutUs">About</Link></li>
                         <li><Link to="ContactUs">Contact</Link></li>
                     </ul>
                 </div>
