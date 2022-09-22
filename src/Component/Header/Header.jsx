@@ -99,11 +99,11 @@ import { useState } from 'react';
              
                 <div >
                     <ul className={toggle ? "myNav" : "none"}>
-                        <li><a href="./">Pages</a></li>
-                        <li><a href="./">Home</a></li>
-                        <li><a href="./">Products</a></li>
-                        <li><a href="./">Blog</a></li>
+                        <li><Link to="./">Pages</Link></li>
+                        <li><Link to="./">Home</Link></li>
+                        <li><Link to="./">Products</Link></li>
                         <li><Link to="AboutUs">About</Link></li>
+                        <li><Link to="./">Blog</Link></li>
                         <li><Link to="ContactUs">Contact</Link></li>
                     </ul>
                 </div>
