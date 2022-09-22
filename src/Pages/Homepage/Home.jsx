@@ -47,6 +47,7 @@ import calendar from "../../homepage_asset/calendar.png";
 
 
 const Home = () => {
+    
   return (
     <div>
         <div className="hero-section">

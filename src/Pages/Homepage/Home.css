@@ -1057,26 +1057,7 @@ p.address{
   body{
     overflow-x: hidden;
   }
-  .header-1 {
-    display:none;
-  }
-  .header-2{
-    justify-content: space-between;
-    padding: 1em;
-    background-color:#7E33E0;
-    position: relative;
-    top:0;
-  }
-  .dot{
-    width: 10px;
-    height: 10px;
-  }
-  .navbar{
-    display: none;
-  }
-  ul.small-nav{
-    display:none;
-  }
+  
  h3{
     padding-left:10px;
   }

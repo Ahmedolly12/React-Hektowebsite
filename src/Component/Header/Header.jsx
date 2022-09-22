@@ -5,27 +5,18 @@
  import profile from "../../homepage_asset/profile.png";
  import white_love from "../../homepage_asset/white_love.png";
  import white_basket from "../../homepage_asset/white_basket.png";
- import {Link} from 'react-router-dom'
-// import menu from "../../homepage_asset/menu.png";
-// import close from "../../homepage_asset/close.png";
+ import {Link} from 'react-router-dom';
+ import Menu from "../../homepage_asset/menu.png";
+ import Close from "../../homepage_asset/close.png";
+import { useState } from 'react';
  
  const Header = () => {
-    // let menuBtn= document.getElementById('menu-btn')
-    // let sideNav= document.getElementById('sidenav')
-    // let menu= document.getElementById('menu')
+   
+  const [toggle, setToggle] = useState(false);
 
-    //  sideNav.style.right == "-250px";
-
-    // menuBtn.onclick= function (){
-    //     if(sideNav.style.right == '-250px'){
-    //          sideNav.style.right= '0';
-    //             menu.src= "homepage_asset/closeicon.png"
-    //     } else{
-    //           sideNav.style.right = '-250px';
-    //            menu.src= "homepage_asset/menu.png"
-    //     }
-    // }
-
+ const handleMe = () => setToggle(!toggle);
+   
+    
 
    return (
     <div>
@@ -101,22 +92,24 @@
                     <input type="text" placeholder="" name="search"/>
                     <button class="fa" type="submit"><i class="fa fa-search"></i></button>
                 </form>
+                 <div id="menu-btn" onClick={handleMe}>
+               { toggle ? <img src={Close}/> :<img src={Menu} id="menu" /> 
+               }
             </div>
-            <div id="menu-btn">
-                {/* <img src={menu} id="menu" width /> */}
-            </div>
-             <div id="sidenav">
-                <div class="nav">
-                    <ul>
-                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Pages</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Shop </a></li>
-                        <li class="nav-item"><a href="" class="nav-reg">Contact</a></li>
+             
+                <div >
+                    <ul className={toggle ? "myNav" : "none"}>
+                        <li><a href="./">Pages</a></li>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="./">Products</a></li>
+                        <li><a href="./">Blog</a></li>
+                        <li><a href="./">Shop </a></li>
+                        <li><a href="./">Contact</a></li>
                     </ul>
                 </div>
+        
             </div>
+           
         </header>
     </div>
    )

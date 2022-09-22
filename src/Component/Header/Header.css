@@ -220,6 +220,10 @@ form.example button {
 .active, .circle:hover {
   background-color: #FB2E86;
 }
+span{
+  font-size: 50px;
+  color:black;
+}
 
 /* Fading animation */
 .fade {
@@ -902,3 +906,56 @@ p.pink{
 a.pink{
   color: #fb2e86;
 }
+
+.none{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .myNav {
+  display: block;
+  position: absolute;
+  list-style: none;
+  right:0em;
+  top: 4em;
+  background:#7E33E0 ;
+  background-size:cover;
+  width:250px;
+  height:100vh;
+  color: white;
+  transition: .5s;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.myNav li a{
+  color:white;
+  margin:5em;
+
+}
+ 
+  .header-1 {
+    display:none;
+  }
+  .header-2{
+    justify-content: space-between;
+    padding: 1em;
+    background-color:#7E33E0;
+    position: relative;
+    top:0;
+  }
+  .dot{
+    width: 10px;
+    height: 10px;
+  }
+  .navbar{
+    display: none;
+  }
+  ul.small-nav{
+    display:none;
+}
+
+}
+

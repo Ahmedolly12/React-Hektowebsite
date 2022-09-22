@@ -11,7 +11,8 @@ import c2 from '../../about_asset/c2.png'
 import c3 from '../../about_asset/c3.png'
 import rec from '../../about_asset/rec.png'
 import rec1 from '../../about_asset/rec1.png'
-
+// import close from '../../about_asset/close.png'
+// import menu from '../../about_asset/menu.png'
 const About = () => {
   return (
     <div>
