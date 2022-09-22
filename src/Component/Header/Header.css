@@ -220,10 +220,6 @@ form.example button {
 .active, .circle:hover {
   background-color: #FB2E86;
 }
-span{
-  font-size: 50px;
-  color:black;
-}
 
 /* Fading animation */
 .fade {
