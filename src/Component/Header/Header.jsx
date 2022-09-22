@@ -93,7 +93,7 @@ import { useState } from 'react';
                     <button class="fa" type="submit"><i class="fa fa-search"></i></button>
                 </form>
                  <div id="menu-btn" onClick={handleMe}>
-               { toggle ? <img src={Close}/> :<img src={Menu} id="menu" /> 
+               { toggle ? <img class="close" src={Close} width="1%"/> :<img src={Menu} id="menu" /> 
                }
             </div>
              

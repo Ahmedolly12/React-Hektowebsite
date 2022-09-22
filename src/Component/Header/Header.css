@@ -921,7 +921,7 @@ a.pink{
   top: 4em;
   background:#7E33E0 ;
   background-size:cover;
-  width:250px;
+  width:  350px;
   height:100vh;
   color: white;
   transition: .5s;
@@ -932,10 +932,8 @@ a.pink{
 }
 .myNav li a{
   color:white;
-  margin:5em;
-
+  margin:10em;
 }
- 
   .header-1 {
     display:none;
   }
