@@ -93,17 +93,17 @@ import { useState } from 'react';
                     <button class="fa" type="submit"><i class="fa fa-search"></i></button>
                 </form>
                  <div id="menu-btn" onClick={handleMe}>
-               { toggle ? <img class="close" src={Close} width="1%"/> :<img src={Menu} id="menu" /> 
+               { toggle ? <img class="close" src={Close}/> :<img src={Menu} id="menu" /> 
                }
             </div>
              
                 <div >
                     <ul className={toggle ? "myNav" : "none"}>
-                        <li><Link to="./">Pages</Link></li>
                         <li><Link to="./">Home</Link></li>
+                        <li><Link to="./">Pages</Link></li>
                         <li><Link to="./">Products</Link></li>
-                        <li><Link to="AboutUs">About</Link></li>
                         <li><Link to="./">Blog</Link></li>
+                        <li><Link to="AboutUs">About</Link></li>
                         <li><Link to="ContactUs">Contact</Link></li>
                     </ul>
                 </div>
